@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        function f() {
+            /* 获取文本内容 */
+            var woman = document.getElementById("myInput").value;
+            var men = document.getElementById("man").value;
+            /* 弹出内容 */
+            alert("男方姓名: " + men + " 女方姓名:" + woman + " 二位性同意证明成功");
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        body {
+            max-width: 1152px;
+            min-width: none;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 17px;
+            margin-right: 10px;
+        }
+
+        blockquote {
+            color: gray;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 0 10px;
+            border-left: 5px solid gray;
+        }
+
+        pre {
+            background: color #cacaca;
+            ;
+            color: black;
+            font-size: 15px;
+            padding: 0 26px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        hr {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        button {
+            margin-bottom: 10px;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+            margin-left: 10px;
+            max-width: 200px;
+            min-width: 100px;
+            max-height: 100px;
+            min-height: 30px;
+            font-size: 17px;
+            margin: 0 auto
+        }
+
+        a {
+            margin-left: 10px;
+        }
+
+        a:link {
+            color: royalblue;
+        }
+
+        a:visited {
+            color: royalblue;
+        }
+
+        a:hover {
+            color: steelblue;
+        }
+
+        a:active {
+            color: steelblue;
+        }
+    </style>
+    <title>性同意</title>
+</head>
+<body>
+    <h1>性同意（网页版）</h1>
+    <hr>
+    <blockquote>
+        <p>
+            <strong>注意，本网站的内容不具有法律效力！</strong>
+        </p>
+    </blockquote>
+    <blockquote>
+        <p>
+            如今，女权主义者已经渗透到社会的各个角落。2025年4月16日宣判的大同订婚强奸案让我们知道，即使是司法机关，女权主义者也不在少数。本项目的总旨在让男性同胞知道她们的嘴脸。
+        </p>
+    </blockquote>
+    <blockquote>
+        <p>
+            订婚案男当事人冤，冤在哪？据官方报告，没有在女方身上查到男方DNA或者精液，但是法官不予采纳。（毕竟全都是女法官）
+        </p>
+    </blockquote>
+    <p>在此键入女方姓名：<input type="text" id="myInput"></p>
+    <p>在此键入男方姓名：<input type="text" id="man"></p>
+    <button onclick="f()">证明</button>
+</body>
